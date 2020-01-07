@@ -1,0 +1,15 @@
+Text Editor Install and Configure
+
+TextMate 2
+https://api.textmate.org/downloads/release?os=10.12
+
+Command Listing
+
+git config --global --list # before
+git config --global core.editor "mate -w" git config --global --list # after
+mate .gitconfig # compare with snip below
+
+~/.gitconfig File (snip)
+
+[core]
+editor = mate -w
